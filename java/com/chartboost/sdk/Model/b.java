@@ -1,0 +1,84 @@
+package com.chartboost.sdk.Model;
+
+import com.chartboost.sdk.Libraries.g;
+import com.chartboost.sdk.Libraries.g.a;
+import com.chartboost.sdk.Libraries.g.k;
+import com.com2us.peppermint.PeppermintConstant;
+import com.facebook.widget.FacebookDialog;
+
+public class b {
+    public static a a;
+    public static a b = g.a(g.a("status", com.chartboost.sdk.Libraries.a.a), g.a("ad_id", g.a()), g.a("to", g.a()), g.a(PeppermintConstant.JSON_KEY_TYPE, g.a()), g.a("native", g.a(g.a())), g.a(jp.co.cyberz.fox.notify.a.a, g.a()), g.a("link", g.a()), g.a("deep-link", g.a(g.a())), g.a("cgn", g.a()), g.a("creative", g.a()), g.a("assets", g), g.a("ux", h), g.a("reward", g.a(g.a(Object.class))));
+    public static a c = g.a(g.a("status", com.chartboost.sdk.Libraries.a.a), g.a(jp.co.cyberz.fox.notify.a.a, g.a()), g.a(PeppermintConstant.JSON_KEY_TYPE, g.a()), g.a("assets", a), g.a("cells", i));
+    public static a d;
+    private static a e = g.a(g.a(jp.co.cyberz.fox.notify.a.g, g.a()), g.a(PeppermintConstant.JSON_KEY_ID, g.a()), g.a("local-file", g.a()), g.a("buffer", g.a(g.b())));
+    private static a f;
+    private static a g = g.b(g.a("video-landscape", g.a(e)), g.a("video-portrait", g.a(e)), g.a("ad-landscape", g.a(f)), g.a("frame-landscape", g.a(f)), g.a("close-landscape", g.a(f)), g.a("replay-landscape", g.a(f)), g.a("ad-portrait", g.a(f)), g.a("frame-portrait", g.a(f)), g.a("close-portrait", g.a(f)), g.a("replay-portrait", g.a(f)), g.a("video-click-button", g.a(f)), g.a("post-video-icon", g.a(f)), g.a("post-video-button", g.a(f)), g.a("video-confirmation-icon", g.a(f)), g.a("video-confirmation-button", g.a(f)), g.a("post-video-reward-icon", g.a(f)), g.a("blur-background", g.a(f)));
+    private static a h;
+    private static a i;
+
+    static {
+        k[] kVarArr = new k[4];
+        kVarArr[0] = g.a(jp.co.cyberz.fox.notify.a.g, g.a());
+        kVarArr[1] = g.a("checksum", g.a());
+        kVarArr[2] = g.a("scale", g.a(g.b()));
+        kVarArr[3] = g.a("offset", g.a(g.b(g.a("x", g.b()), g.a("y", g.b()))));
+        f = g.a(kVarArr);
+        kVarArr = new k[11];
+        kVarArr[0] = g.a("progress", g.a(g.b(g.a("delay", g.b()), g.a("background-color", g.a()), g.a("progress-color", g.a()), g.a("border-color", g.a()), g.a("radius", g.b()))));
+        kVarArr[1] = g.a("video-controls-togglable", g.a(g.c()));
+        kVarArr[2] = g.a("video-controls-background", g.b(g.a("color", g.a()), g.a("border-color", g.a())));
+        kVarArr[3] = g.a("post-video-toaster", g.a(g.b(g.a("title", g.a()), g.a("tagline", g.a()))));
+        kVarArr[4] = g.a("pre-popup", g.a(g.b(g.a("title", g.a()), g.a("text", g.a()), g.a("confirm", g.a()), g.a(FacebookDialog.COMPLETION_GESTURE_CANCEL, g.a()))));
+        kVarArr[5] = g.a("post-popup", g.a(g.b(g.a("title", g.a()), g.a("text", g.a()), g.a("confirm", g.a()))));
+        kVarArr[6] = g.a("cancel-popup", g.a(g.b(g.a("title", g.a()), g.a("text", g.a()), g.a("confirm", g.a()), g.a(FacebookDialog.COMPLETION_GESTURE_CANCEL, g.a()))));
+        kVarArr[7] = g.a("confirmation", g.a(g.b(g.a("text", g.a()), g.a("color", g.a()))));
+        kVarArr[8] = g.a("video-progress-timer-enabled", g.a(g.c()));
+        k[] kVarArr2 = new k[2];
+        kVarArr2[0] = g.a("text", g.a());
+        kVarArr2[1] = g.a("position", g.a("inside-top", "outside-bottom"));
+        kVarArr[9] = g.a("post-video-reward-toaster", g.a(g.b(kVarArr2)));
+        kVarArr[10] = g.a("play-another-popup", g.a(g.b(g.a("skip-confirmation", g.c()), g.a("title", g.a()), g.a("text", g.a()), g.a(FacebookDialog.COMPLETION_GESTURE_CANCEL, g.a()), g.a("confirm", g.a()))));
+        h = g.a(g.b(kVarArr));
+        kVarArr = new k[14];
+        kVarArr[0] = g.a("close", g.a(f));
+        kVarArr[1] = g.a("header-center", g.a(f));
+        kVarArr[2] = g.a("header-tile", g.a(f));
+        kVarArr[3] = g.a("header-height", g.a(g.b()));
+        kVarArr[4] = g.a("background-color", g.a(g.a()));
+        kVarArr[5] = g.a("header-text", g.a(g.a()));
+        kVarArr[6] = g.a("text-color", g.a(g.a()));
+        kVarArr[7] = g.a("close-landscape", g.a(f));
+        kVarArr[8] = g.a("header-landscape", g.a(f));
+        kVarArr[9] = g.a("close-portrait", g.a(f));
+        kVarArr[10] = g.a("header-portrait", g.a(f));
+        kVarArr[11] = g.a("install-button", g.a(f));
+        kVarArr[12] = g.a("play-button", g.a(f));
+        kVarArr[13] = g.a("offset", g.a(g.b(g.a("x", g.b()), g.a("y", g.b()))));
+        a = g.a(kVarArr);
+        kVarArr = new k[12];
+        kVarArr[4] = g.a("assets", g.a(g.a("icon", f)));
+        kVarArr[5] = g.a("text", g.a(g.a()));
+        kVarArr[6] = g.a("link", g.a(g.a()));
+        kVarArr[7] = g.a("deep-link", g.a(g.a()));
+        kVarArr[8] = g.a("itunes_id", g.a(g.a()));
+        kVarArr[9] = g.a("publisher", g.a(g.a()));
+        kVarArr[10] = g.a("description", g.a(g.a()));
+        kVarArr[11] = g.a("border-color", g.a(g.a()));
+        i = g.b(g.b(kVarArr));
+        kVarArr = new k[12];
+        kVarArr[0] = g.a("status", com.chartboost.sdk.Libraries.a.a);
+        kVarArr[1] = g.a("ad_id", g.a());
+        kVarArr[2] = g.a("to", g.a(g.a()));
+        kVarArr[3] = g.a(PeppermintConstant.JSON_KEY_TYPE, g.a(g.a()));
+        kVarArr[4] = g.a("native", g.a(g.a()));
+        kVarArr[5] = g.a(jp.co.cyberz.fox.notify.a.a, g.a(g.a()));
+        kVarArr[6] = g.a("link", g.a());
+        kVarArr[7] = g.a(PeppermintConstant.JSON_KEY_NAME, g.a());
+        kVarArr[8] = g.a("deep-link", g.a(g.a()));
+        kVarArr[9] = g.a("cgn", g.a());
+        kVarArr[10] = g.a("creative", g.a());
+        kVarArr[11] = g.a("icons", g.a(g.a("sm", g.a()), g.a("md", g.a()), g.a("lg", g.a())));
+        d = g.a(kVarArr);
+    }
+}

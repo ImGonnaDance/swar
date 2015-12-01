@@ -1,0 +1,25 @@
+package com.com2us.module.newsbanner2;
+
+public interface NewsBannerCallBack {
+    void POST_NEWSBANNER_CLOSE();
+
+    void POST_NEWSBANNER_FAIL_BACKOFFICE();
+
+    void POST_NEWSBANNER_FAIL_BANNER_DATA();
+
+    void POST_NEWSBANNER_FAIL_CONNECT_ERROR();
+
+    void POST_NEWSBANNER_FAIL_HTTP_ERROR();
+
+    void POST_NEWSBANNER_FAIL_IMAGE_DATA();
+
+    void POST_NEWSBANNER_FAIL_NO_BANNER();
+
+    void POST_NEWSBANNER_FAIL_NO_UID();
+
+    void POST_NEWSBANNER_OPEN();
+
+    void POST_NEWSBANNER_SUCCESS_CPI(int i);
+
+    void POST_NEWSBANNER_SUCCESS_READY();
+}
